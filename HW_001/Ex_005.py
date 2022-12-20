@@ -1,0 +1,7 @@
+x1 = int(input("ВВедите координату x1: "))
+y1 = int(input("ВВедите координату y1: "))
+x2 = int(input("ВВедите координату x2: "))
+y2 = int(input("ВВедите координату y2: "))
+distanse1 = ((x2 - x1)**2)
+distanse2 = ((y2-y1)**2)
+print(distanse1 + distanse2)
