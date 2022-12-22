@@ -4,7 +4,7 @@ import random
 long_list = int(input("Введите длинну списка: "))
 my_lst = []
 for i in range(long_list):
-    my_lst.append(random.randint(1, 10))
+    my_lst.append(random.randint(-10, 10))
 print(f' Ваш список: {my_lst}')
 sum = 0
 for i in range(len(my_lst)):
