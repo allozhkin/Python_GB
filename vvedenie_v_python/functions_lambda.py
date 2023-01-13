@@ -22,4 +22,6 @@ def is_not_even(number):
 
 print(my_filter(numbers, is_not_even))
 
-print(my_filter(numbers, lambda number: number % 2 == 0)) # lambda безымянная функия которая записывается так - lambda входные параметры: результат
+# lambda безымянная функия которая записывается так - 
+# lambda входные параметры: результат
+print(my_filter(numbers, lambda number: number % 2 == 0)) 

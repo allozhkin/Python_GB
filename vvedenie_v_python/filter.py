@@ -13,4 +13,4 @@ print(result)
 
 # ФИльтр для строк
 names = ['lexa', 'ken', 'nadya', 'barbie']
-print(list(filter(lambda x: len(x) > 3, names)))
+print(list(filter(lambda x: len(x) <= 3, names)))
