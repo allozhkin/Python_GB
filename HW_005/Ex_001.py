@@ -32,7 +32,7 @@ else:
     print(f'Первый ход у игрока - {players[0]}')
 
 
-# Прописываем условия если играют люди
+# Прописываем условия 
 is_winner = False
 winner_name = None
 while candy_amount != 0:
