@@ -12,3 +12,6 @@ def read_bd(path: str) -> list:
             id_dict['phone'] = line[2]
             id_dict['comment'] = line[3]
             db_list.append(id_dict)
+def save_new(path: str,new ):
+    with open(path, 'a', encoding='UTF-8') as file:
+        my_list = file.writelines(str(new))

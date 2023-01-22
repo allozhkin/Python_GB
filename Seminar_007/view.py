@@ -23,23 +23,27 @@ def show_all(db):
                 print(f'{v}', end=' ')
             print()
 
+
 def db_success(db):
     if db:
         print('Телефонная книга открыта')
         return True
     else:
-         print('Телефонная книга пуста')
-         return False
+        print('Телефонная книга пуста')
+        return False
+
+
 def exit_program():
     print("Пока!!")
     exit()
-    
-    
+
+new_contact = dict()
 def create_contact():
     print('Создание нового контакта')
-    new_contact = dict()
+    global new_contact
     new_contact['Lostname'] = input('   Введите фамилию: ')
     new_contact['name'] = input('   Введите имя: ')
     new_contact['phone'] = input('     Введите номер телефона: ')
     new_contact['comment'] = input('    Введите комментарий: ')
     return new_contact
+

@@ -10,8 +10,10 @@ def inp_handler(inp: int):
             view.db_success(model.db_list)
         case 2:
             view.show_all(model.db_list)
-        case 4:
+        case 3:
             model.db_list.append(view.create_contact())
+        case 6:
+            model.save_new('database.txt', model.db_list)
         case 7:
             view.exit_program()
 def start():
